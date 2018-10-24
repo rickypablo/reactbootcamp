@@ -1,0 +1,21 @@
+{
+  "name": "es6-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "webpack": "webpack --mode development",
+    "start": "http-server -p 3000"
+  },
+  "author": "Ricky Pablo",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
