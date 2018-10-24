@@ -7,12 +7,6 @@ class AccountLedger extends Component {
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleOnChange = this.handleOnChange.bind(this);
         this.state = {
-            ledgerdate: "",
-            title: "",
-            amount: 0,
-            totaldebit: 0,
-            totalcredit: 0,
-            balance: 0,
             entries: []
         };
     }
